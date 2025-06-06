@@ -1,6 +1,8 @@
 #include "Core.h"
 
 #include <iostream>
+#include <vector>
+
 
 namespace Core {
 
@@ -8,6 +10,7 @@ namespace Core {
 	{
 		std::cout << "Hello World!\n";
 		std::cin.get();
+		std::vector<int> vec1;
 	}
 
 }
